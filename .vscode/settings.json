@@ -1,5 +1,5 @@
 {
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "prettier.printWidth": 40
+  "prettier.printWidth": 80
 }
