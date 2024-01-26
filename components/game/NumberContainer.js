@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     padding: 24,
     margin: 24,
     borderRadius: 8,
-    alignItem: 'center',
+    alignItems: 'center',
     justifyContent: 'center'
   }, 
   numberText: {
