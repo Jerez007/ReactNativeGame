@@ -1,4 +1,4 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, Dimensions } from "react-native";
 import Colors from "../../constants/color";
 
 function Card({ children }) {
@@ -7,9 +7,12 @@ function Card({ children }) {
 
 export default Card;
 
+const deviceWidth = Dimensions.get('window').width;
+
+
 const styles = StyleSheet.create({
   card: {
-    marginTop: 100,
+    marginTop: deviceWidth < 380 ? 22 : 36,
     marginHorizontal: 20,
     borderRadius: 8,
     padding: 16,
